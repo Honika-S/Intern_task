@@ -98,7 +98,7 @@ This module focuses on implementing text detection and optical character recogni
 4. View the extracted text and timestamps in the console output.
 
 
-#MODULE 3: Image Captioning Module
+# MODULE 3: Image Captioning Module
 
 ## Overview
 
@@ -146,7 +146,7 @@ This module implements image captioning, a task involving generating textual des
 4. View the generated textual descriptions for the images.
 
 
-#MODULE 4:Story Generation Module
+# MODULE 4:Story Generation Module
 
 ## Overview
 
