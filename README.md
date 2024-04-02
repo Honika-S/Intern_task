@@ -6,6 +6,18 @@ https://www.youtube.com/watch?v=d2g9HlwoC-s
 # Overview 
 The video analysis system is designed to process video files, extract relevant information, and provide insights into the video content. It employs a combination of computer vision, optical character recognition (OCR), text processing, and natural language processing (NLP) techniques.
 
+# Pre-requesite:
+
+# R-CNN (Region-based Convolutional Neural Network):
+
+R-CNN is a deep learning architecture primarily used for object detection in images.
+It operates by proposing regions of interest within an image, which are then classified and refined to detect objects with bounding boxes.
+
+# LSTM (Long Short-Term Memory):
+
+LSTM is a type of recurrent neural network (RNN) architecture designed to process sequential data with long-range dependencies.
+It is commonly used for tasks involving sequential data such as time series prediction, natural language processing, and video captioning.
+
 # Technologies Used
 Python: Primary programming language for scripting and integration of various libraries.
 
