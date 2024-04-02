@@ -5,26 +5,41 @@ The video analysis system is designed to process video files, extract relevant i
 
 # Technologies Used
 Python: Primary programming language for scripting and integration of various libraries.
+
 OpenCV: Used for video processing, frame extraction, and image manipulation.
+
 dlib: Utilized for accurate face detection in video frames.
+
 Pytesseract: Employed for OCR tasks to extract text from video frames.
+
 Collections: Used for data manipulation, particularly for counting occurrences of detected faces.
+
 Datetime: Utilized for timestamp generation.
+
 Transformers (Hugging Face): Used for text summarization tasks.
+
 Regular Expressions (re): Employed for text cleaning and filtering.
 
 # Functionality and Methodology
 1.Video Processing: The system opens the video file and iterates through each frame for analysis.
+
 2.Face Recognition: Utilizes dlib for precise face detection in video frames. It determines the most common face by counting occurrences using the collections library.
+
 3.Text Detection and OCR: Employs Pytesseract for OCR to extract text from video frames. It filters out non-printable characters and meaningless text.
+
 4.Image Captioning: Utilizes OCR to extract text from video frames, cleans the text, and then uses a pre-trained NLP model for text summarization to generate textual descriptions for images.
+
 5.Story Generation: The system accumulates all extracted text from video frames, cleans it using regular expressions, and then utilizes a pre-trained NLP model for text summarization to generate a narrative story by connecting captions based on their last words.
 
 # Output
 The system provides various outputs based on the modules:
+
 1.Face Recognition Output: The most common face detected in the video with the count of occurrences.
+
 2.Text Detection and OCR Output: Extracted text from video frames along with timestamps.
+
 3.Image Captioning Output: Textual descriptions generated for images extracted from the video.
+
 4.Story Generation Output: A narrative story created by connecting captions extracted from the video frames.
 
 # Usage
