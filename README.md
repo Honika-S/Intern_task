@@ -17,11 +17,8 @@ EncoderCNN is a CNN-based encoder that extracts features from images.
 #  🔗LSTM (Long Short-Term Memory):
 
 LSTM is a type of recurrent neural network (RNN) architecture designed to process sequential data with long-range dependencies.
-
 It is commonly used for tasks involving sequential data such as time series prediction, natural language processing, and video captioning.
-
 A sequence-to-sequence (seq2seq) model using LSTM (Long Short-Term Memory) networks is commonly used for tasks such as machine translation, text summarization, and image captioning. In the context of image captioning, the model takes an image as input and generates a textual description of the image as output.
-
 DecoderRNN is an LSTM-based decoder that generates captions based on the features extracted by the encoder.
 
 #  🔗Technologies Used
