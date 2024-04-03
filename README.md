@@ -34,7 +34,7 @@ Collections: Used for data manipulation, particularly for counting occurrences o
 
 Datetime: Utilized for timestamp generation.
 
-Transformers (Hugging Face): Used for text summarization tasks.
+Transformers (Pre trained model): Used for text summarization tasks.
 
 Regular Expressions (re): Employed for text cleaning and filtering.
 
