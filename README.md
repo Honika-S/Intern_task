@@ -3,22 +3,25 @@
 https://www.youtube.com/watch?v=d2g9HlwoC-s
 
 
-# Overview 
+#  🔗Overview 
 The video analysis system is designed to process video files, extract relevant information, and provide insights into the video content. It employs a combination of computer vision, optical character recognition (OCR), text processing, and natural language processing (NLP) techniques.
 
-# Prior knowledge:
+#  🔗Prior knowledge:
 
-# R-CNN (Region-based Convolutional Neural Network):
+#  🔗R-CNN (Region-based Convolutional Neural Network):
 
 R-CNN is a deep learning architecture primarily used for object detection in images.
 It operates by proposing regions of interest within an image, which are then classified and refined to detect objects with bounding boxes.
+EncoderCNN is a CNN-based encoder that extracts features from images.
 
-# LSTM (Long Short-Term Memory):
+#  🔗LSTM (Long Short-Term Memory):
 
 LSTM is a type of recurrent neural network (RNN) architecture designed to process sequential data with long-range dependencies.
 It is commonly used for tasks involving sequential data such as time series prediction, natural language processing, and video captioning.
+A sequence-to-sequence (seq2seq) model using LSTM (Long Short-Term Memory) networks is commonly used for tasks such as machine translation, text summarization, and image captioning. In the context of image captioning, the model takes an image as input and generates a textual description of the image as output.
+DecoderRNN is an LSTM-based decoder that generates captions based on the features extracted by the encoder.
 
-# Technologies Used
+#  🔗Technologies Used
 Python: Primary programming language for scripting and integration of various libraries.
 
 OpenCV: Used for video processing, frame extraction, and image manipulation.
@@ -35,7 +38,7 @@ Transformers (Hugging Face): Used for text summarization tasks.
 
 Regular Expressions (re): Employed for text cleaning and filtering.
 
-# Functionality and Methodology
+#  🔗Functionality and Methodology
 1.Video Processing: The system opens the video file and iterates through each frame for analysis.
 
 2.Face Recognition: Utilizes dlib for precise face detection in video frames. It determines the most common face by counting occurrences using the collections library.
@@ -46,7 +49,7 @@ Regular Expressions (re): Employed for text cleaning and filtering.
 
 5.Story Generation: The system accumulates all extracted text from video frames, cleans it using regular expressions, and then utilizes a pre-trained NLP model for text summarization to generate a narrative story by connecting captions based on their last words.
 
-# Output
+#  🔗Output
 The system provides various outputs based on the modules:
 
 1.Face Recognition Output: The most common face detected in the video with the count of occurrences.
@@ -57,7 +60,7 @@ The system provides various outputs based on the modules:
 
 4.Story Generation Output: A narrative story created by connecting captions extracted from the video frames.
 
-# Usage
+#  🔗Usage
 1.Ensure Python and the required libraries are installed.
 2.Provide the path to the video file or folder containing video frames.
 3.Run the script for the entire video analysis system.
